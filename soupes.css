@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+  }
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   min-height: 100vh ;
+   background-image: url("https://t3.ftcdn.net/jpg/07/21/97/16/360_F_721971665_94ZVQOI6CUW8v3W50O77B6rzjBc7v941.jpg");
+   
+   ;
+  
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+
+
+
+
+
+#p1{
+  display: none;
+
+}
+#p2{
+  display: none;
+}
+#p3{
+  display: none;
+}
+
+
+
+.main {
+    /* width: 300px;
+    margin: 20px; */
+    padding: 15px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: 0.8s ease-in-out;
+    
+    display: grid;
+    gap: 10px 100px;
+    
+  }
+  
+  
+  .main img {
+  width: 280px;
+  height: 180px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+  }
+  
+  .informa {
+    text-align: center;
+  }
+  
+  
+  .main:hover{
+    transform: translate(30px);
+  }
+  
+
+ 
